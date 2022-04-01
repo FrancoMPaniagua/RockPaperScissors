@@ -1,6 +1,6 @@
-let possibleplays = [Rock, Paper, Scissors]
+let possibleplays = ["Rock", "Paper", "Scissors"];
 
 function computerPlay() {
-    let choice = Math.floor(Math.random() * 3)
-    return (possibleplays[choice])
+    let choice = Math.floor(Math.random() * 3);
+    return (possibleplays[choice]);
 }
